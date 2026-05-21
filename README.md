@@ -1,1 +1,1 @@
-# pokewordle
+# PokeWordle
