@@ -13,7 +13,6 @@ a wordle but with pokemons
 * guessing a pokemon (out of my "database" in pokemon.js)
 * sound effects (background music...)
 * an option to visit the pokedex after finishing the game
-* mobile-friendly
 ## How to play
 1. guess a pokemon
 2. based on the colors guess another one <br>
