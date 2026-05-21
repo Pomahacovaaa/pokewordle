@@ -156,53 +156,22 @@ display: flex;
 @media (max-width: 768px) {
 
     h1 {
-        font-size: 52px;
+        font-size: 60px;
         letter-spacing: 4px;
-        margin-top: 8px;
-        margin-bottom: 8px;
-
-        -webkit-text-stroke: 2px #2A4B9B;
-    }
-
-    #game-container {
-        width: 100%;
-        align-items: center;
-    }
-
-    #game-board {
-        gap: 5px;
-    }
-
-    .letter-row {
-        gap: 5px;
+        margin-bottom: 10px;
     }
 
     .letter-box {
         width: 42px;
         height: 42px;
-
-        font-size: 22px;
-        border-radius: 6px;
-    }
-
-    #keyboard-cont {
-        margin-top: 18px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        font-size: 24px;
     }
 
     .keyboard-button {
-        width: 32px;
-        height: 46px;
-
+        width: 34px;
+        height: 48px;
+        font-size: 14px;
         margin: 2px;
-
-        font-size: 15px;
-        font-weight: 800;
-
-        border-radius: 6px;
     }
 
     .third-row .keyboard-button:first-child,
@@ -210,8 +179,12 @@ display: flex;
         width: 62px;
     }
 
+    #keyboard-cont {
+        margin-top: 15px;
+    }
+
     .pokedex-btn {
-        font-size: 16px;
+        font-size: 15px;
         padding: 10px 16px;
     }
 }
